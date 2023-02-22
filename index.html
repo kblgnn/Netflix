@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class="netflix">
+      <h1 id="net">NET<span id="spn">FLIX</span></h1>
+      <h3 class="hosgeldin">
+        Netflix'e Hoşgeldiniz. Üyelik için lütfen formu doldurun.
+      </h3>
+      <form action="#" id="frm">
+        <div>
+          <label for="" id="ad">Ad Soyad</label><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Adınız ve Soyadınız"
+            required
+          />
+        </div>
+        <div>
+          <label for="yas" id="ys">Yaş</label>
+          <br />
+
+          <input
+            type="number"
+            id="yas"
+            name="yas"
+            min="1"
+            max="100"
+            placeholder="Yaşınız"
+            required
+          />
+        </div>
+        <div>
+          <label for="" id="e-mail">E-Mail Adresi </label> <br />
+          <input
+            type="email"
+            name="name"
+            id="name"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+        <div>
+          <label for="" id="tur">Üyelik Türü </label> <br />
+          <input list="liste" id="lst" placeholder="Tarafını Seç" />
+          <datalist id="liste">
+            <option value="Film"></option>
+            <option value="Dizi"></option>
+            <option value="Belgesel"></option>
+          </datalist>
+          <div class="trz"><p>Ne Tarz İzlersin</p></div>
+          <input type="checkbox" id="dram" name="dram" />
+          <label for="dram">Dram</label> <br />
+          <input type="checkbox" id="komedi" name="komedi" />
+          <label for="komedi">Komedi</label> <br />
+          <input type="checkbox" id="korku" name="korku" />
+          <label for="korku">Korku</label> <br />
+          <div class="cns"><p>Cinsiyet</p></div>
+          <input type="radio" id="erkek" name="cinsiyet" required />
+          <label for="erkek">Erkek</label> <br />
+          <input type="radio" id="kadın" name="cinsiyet" required />
+          <label for="kadın">Kadın</label> <br />
+          <input type="radio" id="diğer" name="cinsiyet" required />
+          <label for="diğer">Diğer</label> <br />
+
+          <footer class="ftr"><p>Bize Yazın</p></footer>
+          <textarea
+            name="description"
+            id="dc"
+            cols="30"
+            rows="10"
+            placeholder="Düşünceleriniz bizim için kıymetli :)"
+            title=""
+            required=""
+          ></textarea>
+          <br />
+          <button class="send">Gönder</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

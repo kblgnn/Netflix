@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+body {
+  background-image: url(netflix.png);
+}
+
+.netflix {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 30px 100px;
+  height: auto;
+  min-width: 616px;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Lilita One', cursive;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+h1 #spn {
+  color: red;
+}
+.hosgeldin {
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #fff;
+  letter-spacing: 2px;
+}
+form {
+  background-color: rgba(0, 0, 0, 0.647);
+  margin: auto;
+  width: 500px;
+  height: auto;
+  padding: 25px 25px;
+}
+#ad {
+  display: flex;
+  justify-content: center;
+}
+#name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 30px;
+  color: black;
+  font-weight: bolder;
+}
+#ys {
+  display: flex;
+  justify-content: center;
+}
+#yas {
+  color: black;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 30px;
+}
+#e-mail {
+  display: flex;
+  justify-content: center;
+}
+#lst {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 30px;
+  color: black;
+}
+#tur {
+  display: flex;
+  justify-content: center;
+}
+.trz {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cns {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ftr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#dc {
+  width: 500px;
+  color: black;
+  font-weight: bolder;
+}
+
+.send {
+  background-color: red;
+  width: 170px;
+  height: 60px;
+  font-size: x-large;
+  font-weight: bolder;
+  border-radius: 40px;
+  margin-left: 180px;
+  cursor: pointer;
+  transition: color 2s;
+}
+
+.send:hover {
+  background-color: #fff;
+  color: red;
+  transition: color 2s;
+}
